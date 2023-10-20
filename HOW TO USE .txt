@@ -11,6 +11,7 @@ HOW TO USE
 	pip install colorama
 	pip install discord.py
 	pip install discord-webhook
+	pip install --upgrade pip
 	pip install aiohttps
 
 4 Run the script:
