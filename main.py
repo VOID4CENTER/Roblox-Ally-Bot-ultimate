@@ -69,7 +69,7 @@ def groupally():
                 print(GREEN + f'Ally sent to {randomid} ⚉ ' + RESET)
             elif sendally.status_code == 429:
                 print(GREEN + 'Rate limited  400s....⚇' + RESET)
-                time.sleep(400)
+                time.sleep(40000)
             else:
                 print(GREEN + f'Failed to send {allies} request to {randomid}' + RESET)
         except Exception as e:
