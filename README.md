@@ -13,6 +13,7 @@ HOW TO USE
 	pip install python-dotenv
 	pip install colorama
 	pip install discord.py
+ 	pip install --upgrade pip
 	pip install discord-webhook
 	pip install aiohttps
 
