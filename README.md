@@ -3,9 +3,9 @@ send an ally request spam for ur group
 
 HOW TO USE
 
-1 Open the .env file and configure your group ID and cookie.
+1 Install Python.
 
-2 Install Python.
+2 Open the .env file and configure your group ID and cookie.
 
 3 Open your terminal and execute the following commands (only for the first time):
 
