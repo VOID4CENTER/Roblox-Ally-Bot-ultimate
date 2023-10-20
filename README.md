@@ -3,7 +3,7 @@ send an ally request spam for ur group
 
 HOW TO USE
 
-1 Install Python.
+1 Install Python on your pc.
 
 2 Open the .env file and configure your group ID and cookie.
 
